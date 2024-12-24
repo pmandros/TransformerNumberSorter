@@ -1,2 +1,2 @@
 # TransformerNumberSorter
-Building a Transformer neural network that sorts numbers and inspecting its outputs.
+Sorting numbers using a neural network sounds weird and feels wrong. The main reason is that we already have deterministic, efficient, and provably correct algorithms that do can sort any sequence of real numbers. Nevertheless, it is a good exercise to explore whether and how neural networks can learn to sort: how should the data look like, what kind of architecture, does the network learn reasonable embeddings etc. This is an active research field, mainly used to understand the NN representation power, e.g., https://research.google/blog/understanding-transformer-reasoning-capabilities-via-graph-algorithms/. We will experiment with transformer models. 
